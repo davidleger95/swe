@@ -1,11 +1,12 @@
 ---
-layout: default
-title: About
+layout: post
+title:  "Welcome to the SWE@UNB Website!"
+author: David Leger
+date:   2018-09-19 08:00:00 -0300
+categories: announcement
 ---
 
-# About
-
-This website is maintained by current and past SWE students from UNB to collect and share advice on how the best get through the degree, share projects, and more.
+I'm honestly surprised this isn't already a thing, but here it is... a website by SWEs for SWEs.
 
 ## Why?
 
