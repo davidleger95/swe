@@ -19,8 +19,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Advice and other stuff from SWE students for SWE students at UNB.
 baseurl: "/swe" # the subpath of your site, e.g. /blog
 url: "https://davidleger95.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: davidleger95
-github_username:  davidleger95
+github:
+  username: davidleger95
+  repo: swe
+slack_id: sweunb
 
 # Build settings
 markdown: kramdown

@@ -8,21 +8,23 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+          <li>
+            <a href="https://{{ site.slack_id| cgi_escape | escape }}.slack.com/" target="_blank">
+              <svg class="svg-icon">
+                <use xlink:href="{{ '/assets/minima-social-icons.svg#slack' | relative_url }}"></use>
+              </svg>
+              <span class="username">Join SWE@UNB on Slack!</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github.username| cgi_escape | escape }}/{{ site.github.repo| cgi_escape | escape }}" target="_blank">
+              <svg class="svg-icon">
+                <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+              </svg>
+              <span class="username">Contribute on Github</span>
+            </a>
+          </li>
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
       </div>
 
       <div class="footer-col footer-col-3">
